@@ -1,0 +1,6 @@
+@GamataAPI_HostAddress = http://localhost:5289
+
+GET {{GamataAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

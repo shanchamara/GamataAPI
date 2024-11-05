@@ -1,0 +1,571 @@
+[
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "AddRoleAsync",
+    "RelativePath": "api/accounts/addrole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GamataAPI.Model.AddRoleModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "ChangeDisableUserAccountAuthorizedOnly",
+    "RelativePath": "api/accounts/ChangeDisableUserAccountAuthorizedOnly",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GamataAPI.Model.ConfirmChangeEmail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "ChangeEmailAuthorizedOnly",
+    "RelativePath": "api/accounts/ChangeEmailAuthorizedOnly",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GamataAPI.Model.ConfirmChangeEmail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "CopyRoles",
+    "RelativePath": "api/accounts/CopyRoles/{sourceUserId}/{targetUserId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sourceUserId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "targetUserId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "DeleteUserAccount",
+    "RelativePath": "api/accounts/DeleteUserAccount/{code}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "DeleteUserRole",
+    "RelativePath": "api/accounts/DeleteUserRole",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GamataAPI.Model.DeleteUserRoleModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "DisableUserAccount",
+    "RelativePath": "api/accounts/DisableUserAccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GamataAPI.Model.AccountLock",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "DisableUserAccountAuthorized",
+    "RelativePath": "api/accounts/DisableUserAccountAuthorized",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GamataAPI.Model.AccountLock",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "UpdateLockAccount",
+    "RelativePath": "api/accounts/EnablelockAccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GamataAPI.Model.EditAccount",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "SendEmail",
+    "RelativePath": "api/accounts/ForgetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GamataAPI.Model.ConfirmRegistration",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "GetAccountDetailByID",
+    "RelativePath": "api/accounts/GetAccountDetailByID/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "GetAll",
+    "RelativePath": "api/accounts/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "items_per_page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "order",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "GetUserRole",
+    "RelativePath": "api/accounts/GetUserRole/{UserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "Insert",
+    "RelativePath": "api/accounts/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GamataAPI.Model.InsertAccount",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "GetLoggedUserDetails",
+    "RelativePath": "api/accounts/loggeduser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "ResetPasswordAuthorizedOnly",
+    "RelativePath": "api/accounts/ResetPasswordAuthorizedOnly",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GamataAPI.Model.ConfirmRegistration",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/accounts/ResetPasswordConfirm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GamataAPI.Model.ConfirmRegistration",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "GetTokenAsync",
+    "RelativePath": "api/accounts/token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GamataAPI.Model.TokenRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "Update",
+    "RelativePath": "api/accounts/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LockoutEnabled",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Join_date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastLoginDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Avatar",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AccountStatus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Role",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ModifiedBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ModifiedDateTime",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "NIC_no",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Designation",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Isdeleted",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Edit_By",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Delete_By",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Edit_Date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Delete_Date",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageURl2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageURl",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "UserSignUp",
+    "RelativePath": "api/accounts/UserSignUp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GamataAPI.Model.InsertAccount",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.AccountController",
+    "Method": "GetAllViewLockaccount",
+    "RelativePath": "api/accounts/ViewLockaccount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.RoleController",
+    "Method": "Delete",
+    "RelativePath": "api/roles/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.RoleController",
+    "Method": "GetAll",
+    "RelativePath": "api/roles/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "items_per_page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.RoleController",
+    "Method": "GetDetails",
+    "RelativePath": "api/roles/GetDetails/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.RoleController",
+    "Method": "Insert",
+    "RelativePath": "api/roles/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Microsoft.AspNetCore.Identity.IdentityRole",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.RoleController",
+    "Method": "Update",
+    "RelativePath": "api/roles/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Microsoft.AspNetCore.Identity.IdentityRole",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GamataAPI.Controllers.ValuesController",
+    "Method": "TestOne",
+    "RelativePath": "api/Values/test-one",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

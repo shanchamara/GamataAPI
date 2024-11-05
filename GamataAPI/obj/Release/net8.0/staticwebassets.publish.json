@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "dLMCreUvN98d7gR3G+ThxOp2X6pHVqTHFr2PT6HgpSs=",
+  "Source": "GamataAPI",
+  "BasePath": "_content/GamataAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GamataAPI\\wwwroot",
+      "Source": "GamataAPI",
+      "ContentRoot": "E:\\Devop Project\\Alpha Dev\\Gamata.API\\GamataAPI\\wwwroot\\",
+      "BasePath": "_content/GamataAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\Devop Project\\Alpha Dev\\Gamata.API\\GamataAPI\\wwwroot\\uploads\\Select.png",
+      "SourceId": "GamataAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Devop Project\\Alpha Dev\\Gamata.API\\GamataAPI\\wwwroot\\",
+      "BasePath": "_content/GamataAPI",
+      "RelativePath": "uploads/Select#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dswf7oiup4",
+      "Integrity": "vbrRObo2iZAtW5VxLgb/fuht78kv+4tHmFJESx5Knpc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Select.png"
+    },
+    {
+      "Identity": "E:\\Devop Project\\Alpha Dev\\Gamata.API\\GamataAPI\\wwwroot\\uploads\\User\\Select.png",
+      "SourceId": "GamataAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Devop Project\\Alpha Dev\\Gamata.API\\GamataAPI\\wwwroot\\",
+      "BasePath": "_content/GamataAPI",
+      "RelativePath": "uploads/User/Select#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dswf7oiup4",
+      "Integrity": "vbrRObo2iZAtW5VxLgb/fuht78kv+4tHmFJESx5Knpc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\User\\Select.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/Select.dswf7oiup4.png",
+      "AssetFile": "E:\\Devop Project\\Alpha Dev\\Gamata.API\\GamataAPI\\wwwroot\\uploads\\Select.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vbrRObo2iZAtW5VxLgb/fuht78kv+4tHmFJESx5Knpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 02 Nov 2024 11:13:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dswf7oiup4"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Select.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vbrRObo2iZAtW5VxLgb/fuht78kv+4tHmFJESx5Knpc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Select.png",
+      "AssetFile": "E:\\Devop Project\\Alpha Dev\\Gamata.API\\GamataAPI\\wwwroot\\uploads\\Select.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vbrRObo2iZAtW5VxLgb/fuht78kv+4tHmFJESx5Knpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 02 Nov 2024 11:13:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vbrRObo2iZAtW5VxLgb/fuht78kv+4tHmFJESx5Knpc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/User/Select.dswf7oiup4.png",
+      "AssetFile": "E:\\Devop Project\\Alpha Dev\\Gamata.API\\GamataAPI\\wwwroot\\uploads\\User\\Select.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vbrRObo2iZAtW5VxLgb/fuht78kv+4tHmFJESx5Knpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 02 Nov 2024 11:13:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dswf7oiup4"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/User/Select.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vbrRObo2iZAtW5VxLgb/fuht78kv+4tHmFJESx5Knpc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/User/Select.png",
+      "AssetFile": "E:\\Devop Project\\Alpha Dev\\Gamata.API\\GamataAPI\\wwwroot\\uploads\\User\\Select.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vbrRObo2iZAtW5VxLgb/fuht78kv+4tHmFJESx5Knpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 02 Nov 2024 11:13:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vbrRObo2iZAtW5VxLgb/fuht78kv+4tHmFJESx5Knpc="
+        }
+      ]
+    }
+  ]
+}

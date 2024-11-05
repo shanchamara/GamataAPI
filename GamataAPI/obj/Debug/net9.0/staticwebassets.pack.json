@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Devop Project\\Alpha Dev\\Gamata API\\GamataAPI\\GamataAPI\\wwwroot\\uploads\\Select.png",
+      "PackagePath": "staticwebassets\\uploads\\Select.png"
+    },
+    {
+      "Id": "E:\\Devop Project\\Alpha Dev\\Gamata API\\GamataAPI\\GamataAPI\\wwwroot\\uploads\\User\\Select.png",
+      "PackagePath": "staticwebassets\\uploads\\User\\Select.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.GamataAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.GamataAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.GamataAPI.props",
+      "PackagePath": "build\\GamataAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.GamataAPI.props",
+      "PackagePath": "buildMultiTargeting\\GamataAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.GamataAPI.props",
+      "PackagePath": "buildTransitive\\GamataAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
